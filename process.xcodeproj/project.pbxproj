@@ -540,7 +540,7 @@
 		BBF889A618C1341D00E83221 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Till Toenshoff";
 			};
 			buildConfigurationList = BBF889A918C1341D00E83221 /* Build configuration list for PBXProject "process" */;
@@ -707,6 +707,7 @@
 		BBF889B318C1341D00E83221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
@@ -718,6 +719,7 @@
 		BBF889B418C1341D00E83221 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;

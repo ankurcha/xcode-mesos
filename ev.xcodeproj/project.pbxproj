@@ -99,7 +99,7 @@
 		BBF88A4C18C1388100E83221 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Till Toenshoff";
 			};
 			buildConfigurationList = BBF88A4F18C1388100E83221 /* Build configuration list for PBXProject "ev" */;
@@ -201,6 +201,7 @@
 		BBF88A5918C1388100E83221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -210,6 +211,7 @@
 		BBF88A5A18C1388100E83221 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
